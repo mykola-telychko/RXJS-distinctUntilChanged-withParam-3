@@ -1,6 +1,8 @@
 import { from } from 'rxjs';
 import { distinctUntilChanged } from 'rxjs/operators';
 
+// https://www.learnrxjs.io/learn-rxjs/operators/filtering/distinctuntilchanged
+
 // only output distinct values, based on the last emitted value
 const source$ = from([
   { name: 'Brian' },
